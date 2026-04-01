@@ -1,0 +1,27 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ring" x1="20" y1="18" x2="106" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8DCFBE"/>
+      <stop offset="1" stop-color="#F2C684"/>
+    </linearGradient>
+    <linearGradient id="bridge" x1="24" y1="92" x2="104" y2="92" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8DCFBE"/>
+      <stop offset="1" stop-color="#F2C684"/>
+    </linearGradient>
+    <linearGradient id="youth" x1="36" y1="36" x2="64" y2="74" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9EEF4"/>
+      <stop offset="1" stop-color="#8DA3B5"/>
+    </linearGradient>
+    <linearGradient id="senior" x1="66" y1="40" x2="96" y2="82" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8DCFBE"/>
+      <stop offset="1" stop-color="#D6F1E8"/>
+    </linearGradient>
+  </defs>
+  <circle cx="64" cy="64" r="49" fill="#0E1C29" stroke="url(#ring)" stroke-width="4"/>
+  <path d="M26 88C38 72 51 64 64 64C77 64 90 72 102 88" stroke="url(#bridge)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M55 43C55 49.6274 49.6274 55 43 55C36.3726 55 31 49.6274 31 43C31 36.3726 36.3726 31 43 31C49.6274 31 55 36.3726 55 43Z" fill="url(#youth)"/>
+  <path d="M29 74C31.5807 63.7433 39.1746 57 48 57C54.2027 57 60.1244 60.3318 64 66.1775C58.2621 72.6626 52.0537 77.2808 45.0994 81.3402C40.7255 79.5767 35.9451 76.9138 29 74Z" fill="url(#youth)" opacity="0.95"/>
+  <path d="M96 47C96 53.6274 90.6274 59 84 59C77.3726 59 72 53.6274 72 47C72 40.3726 77.3726 35 84 35C90.6274 35 96 40.3726 96 47Z" fill="url(#senior)"/>
+  <path d="M69 77C71.5114 66.7146 78.6319 60 87 60C93.2061 60 98.9911 63.0761 103 68.4709C96.6514 74.6111 89.7507 79.0999 81.6584 82.889C77.4368 81.9514 73.4743 80.0599 69 77Z" fill="url(#senior)" opacity="0.95"/>
+  <path d="M68 36C72.9694 36.8274 77.5045 39.8885 80.0818 44.2536C80.9206 45.6738 81.4736 47.1871 81.7308 48.7312C83.4765 47.3502 85.7723 46.8576 87.9824 47.2468C92.0874 47.9694 95.1258 51.5432 95.2685 55.7411C95.3508 58.1606 94.4562 60.4845 92.8124 62.2586" stroke="#DFF6EE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

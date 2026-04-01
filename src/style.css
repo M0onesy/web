@@ -1,0 +1,291 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap');
+
+:root {
+  color-scheme: dark;
+  --bg-0: #071019;
+  --bg-1: #0b1824;
+  --bg-2: #102334;
+  --line: rgba(123, 162, 186, 0.2);
+  --text-main: #eff7fa;
+  --text-soft: rgba(228, 236, 241, 0.74);
+  --mint: #8dcfbe;
+  --amber: #f2c684;
+  --radius-xl: 28px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--text-main);
+  background:
+    radial-gradient(circle at top left, rgba(29, 83, 94, 0.34), transparent 30%),
+    radial-gradient(circle at 88% 12%, rgba(148, 110, 48, 0.18), transparent 28%),
+    linear-gradient(180deg, #071019 0%, #08131f 36%, #050b12 100%);
+  font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+body::before,
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+}
+
+body::before {
+  background:
+    linear-gradient(rgba(138, 194, 193, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(138, 194, 193, 0.04) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(circle at center, rgba(0, 0, 0, 0.88), transparent 88%);
+}
+
+body::after {
+  background: radial-gradient(circle at center, transparent 52%, rgba(2, 5, 8, 0.36) 100%);
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3,
+.brand-mark {
+  font-family: 'Space Grotesk', 'Noto Sans SC', sans-serif;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-size: clamp(2.3rem, 4.8vw, 4.2rem);
+  line-height: 1.04;
+  letter-spacing: -0.03em;
+}
+
+h2 {
+  margin-bottom: 0;
+  font-size: clamp(1.55rem, 2.8vw, 2.7rem);
+  line-height: 1.16;
+  letter-spacing: -0.02em;
+}
+
+h3 {
+  font-size: 1.05rem;
+  line-height: 1.45;
+}
+
+.container {
+  width: min(1180px, calc(100% - 2rem));
+  margin-inline: auto;
+}
+
+.page {
+  padding: 0 0 1rem;
+}
+
+.section-card,
+.surface-panel,
+.portal-link,
+.metric-card,
+.info-chip {
+  border-radius: 24px;
+  border: 1px solid rgba(113, 154, 181, 0.18);
+  background: linear-gradient(180deg, rgba(13, 26, 40, 0.92), rgba(9, 18, 28, 0.94));
+  box-shadow: 0 20px 60px rgba(3, 8, 14, 0.22);
+}
+
+.section-card,
+.surface-panel {
+  padding: 1.15rem;
+}
+
+.page-grid,
+.two-col,
+.media-two-col,
+.card-grid,
+.metric-grid,
+.portal-grid,
+.chip-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.two-col,
+.media-two-col {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.card-grid.three,
+.portal-grid,
+.chip-grid.four {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.metric-grid.four {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.metric-card,
+.portal-link {
+  padding: 1rem;
+}
+
+.metric-value {
+  margin: 0 0 0.42rem;
+  font-size: clamp(1.45rem, 2.6vw, 2rem);
+  line-height: 1;
+  color: var(--amber);
+  font-weight: 700;
+  font-family: 'Space Grotesk', 'Noto Sans SC', sans-serif;
+}
+
+.metric-card h3,
+.portal-link h3,
+.section-head h2,
+.block-head h2,
+.block-head h3 {
+  margin: 0 0 0.42rem;
+}
+
+.metric-card p,
+.portal-link p,
+.support-text,
+.section-note {
+  margin: 0;
+  color: rgba(228, 236, 241, 0.74);
+  line-height: 1.75;
+  font-size: 0.93rem;
+}
+
+.portal-link {
+  text-decoration: none;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.portal-link:hover {
+  transform: translateY(-2px);
+  border-color: rgba(141, 207, 190, 0.42);
+}
+
+.section-head,
+.block-head {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.kicker {
+  margin: 0;
+  color: var(--mint);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.76rem;
+  font-family: 'Space Grotesk', 'Noto Sans SC', sans-serif;
+}
+
+.lead {
+  color: rgba(232, 240, 244, 0.82);
+  font-size: 1rem;
+  line-height: 1.82;
+}
+
+.feature-list {
+  margin: 0;
+  padding-left: 1.1rem;
+  display: grid;
+  gap: 0.68rem;
+  color: rgba(232, 239, 242, 0.8);
+  line-height: 1.76;
+}
+
+.info-chip {
+  padding: 0.85rem 0.95rem;
+}
+
+.info-chip p {
+  margin: 0;
+  color: rgba(235, 242, 245, 0.82);
+  line-height: 1.7;
+}
+
+.accent-panel {
+  background: linear-gradient(180deg, rgba(20, 43, 58, 0.92), rgba(10, 19, 29, 0.96));
+}
+
+.figure-only {
+  max-width: 980px;
+}
+
+.tight-gap {
+  gap: 0.75rem;
+}
+
+.top-space {
+  margin-top: 0.2rem;
+}
+
+::selection {
+  background: rgba(141, 207, 190, 0.24);
+  color: #fff;
+}
+
+@media (max-width: 1100px) {
+  .two-col,
+  .media-two-col,
+  .metric-grid.four,
+  .card-grid.three,
+  .portal-grid,
+  .chip-grid.four {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: min(1180px, calc(100% - 1rem));
+  }
+
+  .two-col,
+  .media-two-col,
+  .metric-grid.four,
+  .card-grid.three,
+  .portal-grid,
+  .chip-grid.four {
+    grid-template-columns: 1fr;
+  }
+
+  .section-card,
+  .surface-panel,
+  .portal-link,
+  .metric-card,
+  .info-chip {
+    border-radius: 18px;
+  }
+}
