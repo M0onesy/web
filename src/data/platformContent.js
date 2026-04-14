@@ -17,7 +17,7 @@ export const navItems = [
 export const homepage = {
   hero: {
     eyebrow: 'Platform Showcase',
-    headline: '把老师傅的经验，变成企业可复用的增长资产。',
+    headline: '银发知识库',
     subheadline:
       '智龄协同连接银发专家、青年员工与企业管理者，让经验采集、任务协同、过程追踪和可信交付在同一平台里完成。',
     description:
