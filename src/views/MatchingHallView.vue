@@ -14,6 +14,7 @@ import { matchingCenter } from '../data/platformContent'
         :eyebrow="matchingCenter.hero.eyebrow"
         :headline="matchingCenter.hero.headline"
         :subheadline="matchingCenter.hero.subheadline"
+        :description="matchingCenter.hero.description"
         :badges="['多维标签', '候选卡片', '推荐解释']"
         :stats="matchingCenter.outcomes.stats"
       />

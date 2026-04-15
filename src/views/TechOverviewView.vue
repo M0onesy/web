@@ -13,6 +13,7 @@ import { trustSystem } from '../data/platformContent'
         :eyebrow="trustSystem.hero.eyebrow"
         :headline="trustSystem.hero.headline"
         :subheadline="trustSystem.hero.subheadline"
+        :description="trustSystem.hero.description"
         :badges="['存证机制', '权限边界', '风控引擎']"
         :stats="trustSystem.outcomes.stats"
       />

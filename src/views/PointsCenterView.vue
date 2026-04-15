@@ -13,6 +13,7 @@ import { collaborationCenter } from '../data/platformContent'
         :eyebrow="collaborationCenter.hero.eyebrow"
         :headline="collaborationCenter.hero.headline"
         :subheadline="collaborationCenter.hero.subheadline"
+        :description="collaborationCenter.hero.description"
         :badges="['任务流', '成长记录', '积分激励']"
         :stats="collaborationCenter.outcomes.stats"
       />

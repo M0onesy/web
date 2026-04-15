@@ -19,7 +19,7 @@ export const homepage = {
     eyebrow: 'Platform Showcase',
     headline: '银发知识库',
     subheadline:
-      '智龄协同连接银发专家、青年员工与企业管理者，让经验采集、任务协同、过程追踪和可信交付在同一平台里完成。',
+      '智龄协同连接银发专家、青年员工与企业管理者，让经验采集、任务协同、过程追踪和可信交付在同一平台里完成',
     description:
       '网站会直接呈现平台能力、成果效果和使用体验，而不是章节化讲解。',
     badges: ['语音采集', '智能匹配', '任务协同', '可信留痕'],
@@ -36,7 +36,7 @@ export const homepage = {
   },
   roles: {
     eyebrow: '角色价值',
-    title: '同一个平台，让三类角色都能看见自己的成果。',
+    title: '同一个平台，让三类角色都能看见自己的成果',
     description: '平台不是单点工具，而是围绕三类用户的协同链路搭建。每个角色都能在界面里感受到自己为什么要来、能获得什么、如何继续留下来。',
     cards: [
       {
@@ -58,8 +58,8 @@ export const homepage = {
   },
   modules: {
     eyebrow: '核心模块',
-    title: '网站展示的是平台成品感，而不是章节目录。',
-    description: '六个页面分别承担产品官网中的六种功能说明角色：首页讲平台，子页讲工作台、后台、匹配、协同与可信体系。',
+    title: '产品官网中的六种功能说明角色',
+    description: '六个页面分别承担：首页讲平台，子页讲工作台、后台、匹配、协同与可信体系。',
     cards: [
       { title: '银发工作台', text: '语音接单、经验采集、数字履历、任务反馈。', to: '/silver-end' },
       { title: '企业协同后台', text: '需求发布、候选推荐、任务管理、数据看板。', to: '/enterprise-saas' },
@@ -70,7 +70,7 @@ export const homepage = {
   },
   journey: {
     eyebrow: '平台流程',
-    title: '从发起需求到结果归档，平台把经验协同做成一条清晰链路。',
+    title: '从发起需求到结果归档，把经验协同做成一条清晰链路',
     steps: [
       { title: '发起需求', text: '企业在后台定义岗位、技能、周期与交付目标，建立标准化任务。'},
       { title: '推荐专家', text: '平台基于标签、评价、时间与场景生成候选列表，并解释推荐理由。'},
@@ -80,7 +80,7 @@ export const homepage = {
   },
   outcomes: {
     eyebrow: '平台成果',
-    title: '平台成果不是 PPT 结论，而是用户在系统里真实感知到的变化。',
+    title: '平台成果是用户在系统里真实感知到的变化',
     stats: [
       { label: '经验沉淀', value: '可结构化', desc: '老师傅的口述经验变成可检索、可传播、可复用的数字资产。' },
       { label: '匹配效率', value: '更透明', desc: '企业不只看结果，还能理解推荐逻辑和候选差异。' },
@@ -92,13 +92,14 @@ export const homepage = {
 
 export const silverWorkspace = {
   hero: {
-    eyebrow: 'Silver Workspace',
-    headline: '银发工作台：让经验采集和任务反馈变成自然动作。',
-    subheadline: '银发工作台围绕“愿意用、用得动、留得下”设计，让老年专家不需要适应复杂系统，也能顺畅参与平台协同。',
+    eyebrow: '银发端',
+    headline: '银发工作台',
+    subheadline: '让经验采集和任务反馈变成自然动作',
+    description: '银发工作台围绕“愿意用、用得动、留得下”设计，让老年专家不需要适应复杂系统，也能顺畅参与平台协同。',
   },
   features: {
     eyebrow: '工作台能力',
-    title: '一个入口，覆盖接单、采集、履历和反馈。',
+    title: '一个入口，覆盖接单、采集、履历和反馈',
     cards: [
       { title: '语音接单', text: '收到任务后直接用语音确认，不必在复杂表单里来回切换。', tag: '任务进入更轻' },
       { title: '经验采集', text: '系统按问题引导表达，把口述经验直接转成结构化内容。', tag: '采集过程更顺' },
@@ -108,7 +109,7 @@ export const silverWorkspace = {
   },
   mockup: {
     eyebrow: '界面示意',
-    title: '银发工作台的核心，是把高频动作压缩到用户愿意反复使用的路径里。',
+    title: '银发工作台的核心，是把高频动作压缩到用户愿意反复使用的路径里',
     phoneTitle: '银龄智囊',
     summary: '今日 3 条待确认任务',
     modules: [
@@ -121,7 +122,7 @@ export const silverWorkspace = {
   },
   scenario: {
     eyebrow: '使用流程',
-    title: '从收到任务到提交反馈，银发专家只需要关注表达本身。',
+    title: '从收到任务到提交反馈，银发专家只需要关注表达本身',
     steps: [
       { title: '收到任务', text: '平台播报需求摘要，用户先听懂再决定是否接入。' },
       { title: '确认接单', text: '通过语音指令完成接单，减少输入和学习成本。' },
@@ -131,7 +132,7 @@ export const silverWorkspace = {
   },
   outcomes: {
     eyebrow: '成果效果',
-    title: '适老化不是“做大按钮”这么简单，而是让表达效率真正提升。',
+    title: '适老化不是“做大按钮”这么简单，而是让表达效率真正提升',
     stats: [
       { label: '操作路径', value: '3 步内', desc: '高频动作被压缩到更短路径，降低学习和使用负担。' },
       { label: '表达方式', value: '语音优先', desc: '把口述优势转成产品优势，而不是要求用户迁就系统。' },
@@ -142,13 +143,14 @@ export const silverWorkspace = {
 
 export const enterpriseWorkspace = {
   hero: {
-    eyebrow: 'Enterprise Workspace',
-    headline: '企业协同后台：让需求、任务和结果都落在一套系统里。',
-    subheadline: '后台不是展示信息的页面，而是企业发起协同、选择专家、推进任务和复盘效果的核心控制台。',
+    eyebrow: '企业端',
+    headline: '企业协同后台',
+    subheadline: '让需求、任务和结果都落在一套系统里',
+    description: '企业发起协同、选择专家、推进任务和复盘效果的核心控制台。',
   },
   features: {
     eyebrow: '后台能力',
-    title: '从发需求到看结果，企业不需要再在多个工具之间来回切换。',
+    title: '从发需求到看结果，企业不需要再在多个工具之间来回切换',
     cards: [
       { title: '需求发布', text: '岗位、技能、周期、交付目标全部结构化录入。', tag: '问题定义更清楚' },
       { title: '候选推荐', text: '系统根据标签、评价与可用性给出可解释推荐。', tag: '选择依据更透明' },
@@ -158,7 +160,7 @@ export const enterpriseWorkspace = {
   },
   mockup: {
     eyebrow: '后台示意',
-    title: '后台的成品感，来自“信息少而准、动作短而清晰”的管理界面。',
+    title: '“信息少而准、动作短而清晰” 的管理界面',
     menu: ['需求中心', '候选专家', '任务看板', '知识资产'],
     stats: [
       { label: '待确认需求', value: '12' },
@@ -174,7 +176,7 @@ export const enterpriseWorkspace = {
   },
   outcomes: {
     eyebrow: '成果效果',
-    title: '后台最重要的价值，是让管理动作变得更少但更有效。',
+    title: '后台最重要的价值，是让管理动作变得更少但更有效',
     stats: [
       { label: '决策方式', value: '更透明', desc: '推荐依据直接外显，减少拍板时的信息不对称。' },
       { label: '任务推进', value: '更清晰', desc: '节点、反馈、异常和归档都在一个界面中完成。' },
@@ -185,13 +187,14 @@ export const enterpriseWorkspace = {
 
 export const matchingCenter = {
   hero: {
-    eyebrow: 'Matching Center',
-    headline: '智能匹配中心：不是“推荐一个人”，而是解释为什么是这个人。',
-    subheadline: '匹配中心把算法、标签和履历变成管理者看得懂的页面，让推荐过程本身成为平台价值的一部分。',
+    eyebrow: '匹配页',
+    headline: '智能匹配中心',
+    subheadline: '不是“推荐一个人”，而是解释为什么是这个人',
+    description: '把算法、标签和履历变成管理者看得懂的页面，让推荐过程本身成为平台价值的一部分。',
   },
   features: {
     eyebrow: '匹配能力',
-    title: '多维标签、候选卡片和解释逻辑，共同构成可用的推荐体验。',
+    title: '多维标签、候选卡片和解释逻辑，共同构成可用的推荐体验',
     cards: [
       { title: '标签匹配', text: '围绕行业、技能、经验、可用时段和服务评价建立匹配维度。', tag: '推荐不再单一' },
       { title: '候选卡片', text: '每位候选专家都以卡片形式展示能力、经历和适配场景。', tag: '信息对比更快' },
@@ -201,7 +204,7 @@ export const matchingCenter = {
   },
   mockup: {
     eyebrow: '界面示意',
-    title: '在匹配中心里，推荐结果需要一眼就能比较、一眼就能解释。',
+    title: '在匹配中心里，推荐结果需要一眼就能比较、一眼就能解释',
     demandTitle: '需求：产线设备维护与带教',
     demandTags: ['设备维护', '驻场 2 周', '班组带教', '机械行业'],
     candidates: [
@@ -212,7 +215,7 @@ export const matchingCenter = {
   },
   scenario: {
     eyebrow: '推荐流程',
-    title: '平台把“找人”从经验判断，变成一套可重复的决策流程。',
+    title: '平台把“找人”从经验判断，变成一套可重复的决策流程',
     steps: [
       { title: '创建需求', text: '明确岗位目标、服务周期和带教重点。' },
       { title: '查看候选', text: '系统生成多位候选并同步展示匹配依据。' },
@@ -221,7 +224,7 @@ export const matchingCenter = {
   },
   outcomes: {
     eyebrow: '成果效果',
-    title: '匹配中心最直观的成果，是把推荐过程从黑盒变成共识。',
+    title: '匹配中心最直观的成果，是把推荐过程从黑盒变成共识',
     stats: [
       { label: '推荐逻辑', value: '可解释', desc: '企业能看见推荐依据，而不是只收到结果。' },
       { label: '候选比较', value: '一屏完成', desc: '关键信息被压缩到可快速对比的候选卡片中。' },
@@ -232,13 +235,14 @@ export const matchingCenter = {
 
 export const collaborationCenter = {
   hero: {
-    eyebrow: 'Collaboration Center',
-    headline: '协同与激励中心：让任务推进、成长记录和积分激励真正闭环。',
-    subheadline: '平台不仅要匹配成功，更要把执行过程跑顺。协同与激励中心就是把执行链路变成可追踪、可反馈、可持续的关键页面。',
+    eyebrow: '协同页',
+    headline: '协同与激励中心',
+    subheadline: '让任务推进、成长记录和积分激励真正闭环',
+    description: '平台不仅要匹配成功，更要把执行过程跑顺。协同与激励中心就是把执行链路变成可追踪、可反馈、可持续的关键页面。',
   },
   features: {
     eyebrow: '执行闭环',
-    title: '平台通过任务流、成长记录和积分体系，把协同过程做成用户能持续感知的产品。',
+    title: '平台通过任务流、成长记录和积分体系，把协同过程做成用户能持续感知的产品',
     cards: [
       { title: '带教任务流', text: '按阶段推进任务，节点完成情况实时可见。', tag: '过程清楚' },
       { title: '积分激励', text: '贡献有对应的激励反馈，规则和明细在平台内可见。', tag: '价值可感知' },
@@ -248,7 +252,7 @@ export const collaborationCenter = {
   },
   mockup: {
     eyebrow: '任务界面',
-    title: '协同中心更像一个执行驾驶舱，而不是单独的积分页面。',
+    title: '协同中心更像一个执行驾驶舱，而不是单独的积分页面',
     stages: [
       { title: '创建计划', note: '设定目标、周期与参与角色' },
       { title: '执行带教', note: '记录阶段动作、问题与关键经验' },
@@ -263,7 +267,7 @@ export const collaborationCenter = {
   },
   outcomes: {
     eyebrow: '成果效果',
-    title: '平台成果最终会落在“任务是否跑顺、用户是否愿意留下”上。',
+    title: '平台成果最终会落在“任务是否跑顺、用户是否愿意留下”上',
     stats: [
       { label: '贡献反馈', value: '更及时', desc: '银发专家能感知到自己的投入和回报。' },
       { label: '过程记录', value: '更完整', desc: '每个阶段的动作和反馈都能回到同一任务里。' },
@@ -274,13 +278,14 @@ export const collaborationCenter = {
 
 export const trustSystem = {
   hero: {
-    eyebrow: 'Trust System',
-    headline: '安全与可信体系：让平台不仅能用，还能被企业放心使用。',
-    subheadline: '安全与可信体系负责回答三个问题：平台为什么稳、为什么可信、为什么不容易出问题。',
+    eyebrow: '可信页',
+    headline: '安全与可信体系',
+    subheadline: '让平台不仅能用，还能被企业放心使用',
+    description: '安全与可信体系负责回答三个问题：平台为什么稳、为什么可信、为什么不容易出问题。',
   },
   architecture: {
     eyebrow: '平台底座',
-    title: '稳定架构不是技术名词堆砌，而是围绕业务连续性去设计。',
+    title: '稳定架构不是技术名词堆砌，而是围绕业务连续性去设计',
     cards: [
       { title: '应用入口', text: '小程序与 Web 后台形成双端入口，分别服务银发专家与企业用户。', tag: '角色清晰' },
       { title: '协同服务', text: '需求、匹配、任务、积分等能力按业务域拆分，便于持续演进。', tag: '结构稳定' },
@@ -290,7 +295,7 @@ export const trustSystem = {
   },
   flow: {
     eyebrow: '可信流程',
-    title: '关键事件进入可信链路后，平台就能把结果留得住、查得到、说得清。',
+    title: '关键事件进入可信链路后，平台就能把结果留得住、查得到、说得清',
     steps: [
       { title: '抽取摘要', text: '对任务确认、节点完成和交易行为提取关键摘要。' },
       { title: '生成指纹', text: '通过摘要哈希建立不可篡改的内容指纹。' },
@@ -300,7 +305,7 @@ export const trustSystem = {
   },
   modules: {
     eyebrow: '安全模块',
-    title: '安全与可信体系覆盖的不是单点功能，而是整条业务链路。',
+    title: '安全与可信体系覆盖的不是单点功能，而是整条业务链路',
     cards: [
       { title: '存证机制', text: '关键事件固化为可追溯证据，不依赖单方后台记录。', tag: '可信留痕' },
       { title: '权限边界', text: '数据分级分类，角色看到的数据范围各不相同。', tag: '访问可控' },
@@ -310,7 +315,7 @@ export const trustSystem = {
   },
   outcomes: {
     eyebrow: '可信结果',
-    title: '可信不是一页说明文，而是平台运行时持续成立的约束。',
+    title: '可信不是一页说明文，而是平台运行时持续成立的约束',
     stats: [
       { label: '关键事件', value: '全程留痕', desc: '从匹配确认到积分交易，核心节点都能追溯。' },
       { label: '敏感数据', value: '分级管理', desc: '平台按角色、场景和数据类型控制可见范围。' },

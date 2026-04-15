@@ -14,6 +14,7 @@ import { silverWorkspace } from '../data/platformContent'
         :eyebrow="silverWorkspace.hero.eyebrow"
         :headline="silverWorkspace.hero.headline"
         :subheadline="silverWorkspace.hero.subheadline"
+        :description="silverWorkspace.hero.description"
         :badges="['轻操作', '语音优先', '经验沉淀']"
         :stats="silverWorkspace.outcomes.stats"
       />

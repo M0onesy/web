@@ -13,6 +13,7 @@ import { enterpriseWorkspace } from '../data/platformContent'
         :eyebrow="enterpriseWorkspace.hero.eyebrow"
         :headline="enterpriseWorkspace.hero.headline"
         :subheadline="enterpriseWorkspace.hero.subheadline"
+        :description="enterpriseWorkspace.hero.description"
         :badges="['结构化需求', '候选推荐', '任务看板', '数据复盘']"
         :stats="enterpriseWorkspace.outcomes.stats"
       />

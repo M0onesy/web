@@ -31,7 +31,7 @@ import { enterpriseWorkspace, homepage } from '../data/platformContent'
       <div class="two-col">
         <DashboardMockup
           :eyebrow="enterpriseWorkspace.mockup.eyebrow"
-          :title="'平台主控界面预览：协同任务、候选推荐与结果回流在一套系统里统一可见。'"
+          :title="'平台主控界面预览：协同任务、候选推荐与结果回流在一套系统里统一可见'"
           :menu="enterpriseWorkspace.mockup.menu"
           :stats="enterpriseWorkspace.mockup.stats"
           :task-rows="enterpriseWorkspace.mockup.taskRows"
